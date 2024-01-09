@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-
+// eslint-disable-next-line
 import StarRating from "./StarRating";
 
 function Test() {
+  // eslint-disable-next-line
   const [movieRating, setMovieRating] = useState(0);
   return (
     <div>
