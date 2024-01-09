@@ -9,7 +9,7 @@ function Test() {
   const [movieRating, setMovieRating] = useState(0);
   return (
     <div>
-      <StarRating color="blue" maxRating={10} onSetRating={setMovieRating} />
+      {/* <StarRating color="blue" maxRating={10} onSetRating={setMovieRating} /> */}
       <p>This movie was rated {movieRating} stars</p>
     </div>
   );
@@ -20,11 +20,11 @@ root.render(
   <React.StrictMode>
     <App />
 
-    <StarRating
+    {/* <StarRating
       maxRating={5}
       messages={["Terrible", "Bad", "Okay", "Good", "Amazing"]}
     />
-    <StarRating size={50} color="red" classname="test" defaultRating={3} />
+    <StarRating size={50} color="red" classname="test" defaultRating={3} /> */}
     <Test />
   </React.StrictMode>
 );
